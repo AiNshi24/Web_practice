@@ -4,8 +4,41 @@
   box-sizing: border-box;
 }
 
+.container{
+  width: 1024px;
+  margin: 0 auto;
+}
+
 header{
   height: 70px;
   background-color: #EC715F;
   width: 100%;
+}
+
+.logo{
+  height: 70px;
+}
+
+.header-group{
+  display: flex;
+  justify-content: space-between;
+	font-size: 0;
+}
+
+.nav{
+  display: flex;
+}
+
+.nav-list{
+  line-height: 70px;
+  /*float: left;*/
+  padding: 0 30px;
+  list-style: none;
+  font-size: 16px;
+  /*display: list-item;*/
+}
+
+.nav-list a{
+  text-decoration: none;
+  color: #FAFAFA;
 }
