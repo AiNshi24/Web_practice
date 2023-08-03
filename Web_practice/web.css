@@ -9,6 +9,8 @@
   margin: 0 auto;
 }
 
+/*header---------------------*/
+
 header{
   height: 70px;
   background-color: #EC715F;
@@ -41,4 +43,27 @@ header{
 .nav-list a{
   text-decoration: none;
   color: #FAFAFA;
+}
+
+/*mainvisual----------*/
+
+#mv{
+  width: 100%;
+  background-image: url("img 4/mv.png");
+  height: 650px;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+.mv-title{
+  font-size: 64px;
+  color: #FAFAFA;
+  padding-top: 200px;
+}
+
+.mv-text{
+  font-size: 20px;
+  color: #FAFAFA;
+  padding-top: 10px;
 }
