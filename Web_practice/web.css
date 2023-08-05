@@ -96,3 +96,51 @@ header{
   font-size: 16px;
   color: #000000;
 }
+
+.portfolio-img{
+  padding: 30px 0 90px 0;
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  width: 920px;
+}
+
+.production{
+  width: 300px;
+  height: 250px;
+  margin: 10px 10px 0 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.production:nth-child(-n+3){ /*(-n+3)==兄弟要素のグループの中で最初の３つの要素*/
+  margin-top: 0;
+}
+
+.production:nth-child(3n){ /*3の倍数の要素 ここでは3番目と6番目*/
+  margin-right: 0;
+}
+
+.img1{
+  background-image: url("img 4/sketch.jpg");
+}
+
+.img2{
+  background-image: url("img 4/websuku.png");
+}
+
+.img3{
+  background-image: url("img 4/write.jpg");
+}
+
+.img4{
+  background-image: url("img 4/webcamp.png");
+}
+
+.img5{
+  background-image: url("img 4/talk.jpg");
+}
+
+.img6{
+  background-image: url("img 4/webcamp-mother.png");
+}
