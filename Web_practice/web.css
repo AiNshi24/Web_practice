@@ -144,3 +144,38 @@ header{
 .img6{
   background-image: url("img 4/webcamp-mother.png");
 }
+
+/*feature-------*/
+
+.strength-group{
+  width: 980px;
+  padding: 30px 0 90px 0;
+  display: flex;
+  margin: 0 auto;
+}
+
+.strength{
+  width: 320px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.strength:nth-child(3n){
+  margin-right: 0;
+}
+
+.strength i{
+  font-size: 60px;
+}
+
+.strength-title{
+  padding: 10px 0 10px 0;
+  font-size: 20px;
+  color: #000000;
+}
+
+.strength-text{
+  font-size: 16px;
+  color: #000000;
+  text-align: left;
+}
