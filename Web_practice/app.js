@@ -32,13 +32,29 @@
 // alert('2を掛け続けて'　+ max + 'を超えるのに必要だった回数は'　+ count + '回です');
 
 // for文---------------------------------------
-let i;
-let num = 0;
- // for(初期値; 条件式; 増減値){
-//   繰り返し処理
+// let i;
+// let num = 0;
+// // for(初期値; 条件式; 増減値){
+// //   繰り返し処理
+// // }
+// for(i = 1; i < 11; i++){
+//   num = num + i;
 // }
-for(i = 1; i < 11; i++){
-  num = num + i;
-}
 
-alert('1から10まで足し算した結果は' + num + 'です');
+// alert('1から10まで足し算した結果は' + num + 'です');
+
+// 関数ーーーーーーーーーーーーーーーー
+// function関数名（引数）{
+//   処理
+//   return 戻り値;
+// }
+
+// --------メイン部分
+let alertString;
+// ---- 作成した関数を呼び出し、変数へ格納
+alertString = addString("WebCamp");
+alert(alertString);
+function addString(strA){
+  let addStr = "Hello " + strA;
+  return addStr;
+}
