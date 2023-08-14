@@ -50,11 +50,38 @@
 // }
 
 // --------メイン部分
-let alertString;
+// let alertString;
 // ---- 作成した関数を呼び出し、変数へ格納
-alertString = addString("WebCamp");
-alert(alertString);
-function addString(strA){
-  let addStr = "Hello " + strA;
-  return addStr;
+// alertString = addString("WebCamp");
+// alert(alertString);
+// function addString(strA){
+//   let addStr = "Hello " + strA;
+//   return addStr;
+// }
+
+
+// 入力ダイアログで値を入力する----------------
+// let promptStr = prompt('何か好きな文字を入力してください。');
+// alert(promptStr);
+
+
+// 関数の関数を定義する-----------------------------------------
+
+// じゃんけんの手を入力してもらうプロンプト欄を生成
+let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
+
+// じゃんけんの手をランダムに作成する関数を呼び出す
+let js_hand = getJShand;
+
+function getJShand(){
+  let js_hand_num = Math.floor(Math.random() * 3 );
+  
+  if(js_hand_num == 0){
+    js_hand = "グー";
+  }else if(js_hand_num == 1){
+    js_hand = "チョキ";
+  }else if(js_hand_num == 2){
+    js_hand = "パー";
+  }
+  return js_hand;
 }
