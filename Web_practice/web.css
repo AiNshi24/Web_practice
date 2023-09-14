@@ -272,3 +272,9 @@ footer{
   text-align: center;
   line-height: 60px;
 }
+
+@media screen and (max-width: 768px){
+  .social i{
+    width: 90%;
+  }
+}
